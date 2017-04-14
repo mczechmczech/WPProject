@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+/**
+* Layout for the laptop version of the site.
+*
+* Authors: Czech, Flake, Paule
+*/
+@media screen and (min-width: 700px){}
+#Header {
+	background-color: red;
+	height: 30%;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+#SearchBar {
+	background-color: white;
+	width: 25%;
+}
+
+ul#HeaderTabs li {
+	display: inline;
+	width: 100%;
+}
+
+#TwitterFeed {
+	background-color: green;
+	height: 100vh;
+	width: 40vh;
+	float: left;
+}
+
+#Content {
+	background-color: blue;
+	float: right;
+	height: 100vh;
+	width: 80%;
+}
+}
