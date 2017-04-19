@@ -4,17 +4,26 @@
 *
 * Authors: Czech, Flake, Paule
 */
-@media screen and (min-width: 700px){}
+@media screen and (min-width: 700px){
+body	{
+	background-color: #9ec3ff;
+}
+
 #Header {
 	background-color: red;
-	height: 30%;
-	width: 100%;
+	height: 150px;
+	width: 1000px;
 	padding-bottom: 10px;
+	margin: auto;
 }
 
 #SearchBar {
 	background-color: white;
-	width: 25%;
+	position: relative;
+	bottom: 10px;
+	width: 200px;
+	height: 30px;
+	float: right;
 }
 
 ul#HeaderTabs li {
@@ -22,17 +31,36 @@ ul#HeaderTabs li {
 	width: 100%;
 }
 
+ul#GameTabs li {
+	display: inline;
+	width: 100%;
+}
+
 #TwitterFeed {
 	background-color: green;
+	width: 200px;
 	height: 100vh;
-	width: 40vh;
+	float: left;
+}
+
+#GameInfo {
+	background-color: green;
+	width: 200px;
+	height: 100vh;
 	float: left;
 }
 
 #Content {
 	background-color: blue;
-	float: right;
 	height: 100vh;
-	width: 80%;
+	width: 1000px;
+	margin: auto;
+}
+
+#Footer {
+	width: 1000px;
+	height: 75px;
+	margin: auto;
+	background-color: #e2e2e2;
 }
 }
