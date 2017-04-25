@@ -30,7 +30,12 @@
 		<div id="TwitterFeed">
 			<p>This is a div for the twitter feed.</p>
 		</div>
-		<h1>This is a div for the page content</h1>
+		<div class="News">
+		</div>
+		<div class="News">
+		</div>
+		<div class="News">
+		</div>
 	</div>
 	<div id="Footer">
 		<p>Designed by Matthew Czech, Zackary Flake, and Matthew Paule</p>

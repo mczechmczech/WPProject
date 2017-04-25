@@ -29,11 +29,22 @@
 	<div id="Content">
 		<div id="TwitterFeed">
 			<div class="twitter"><a class="twitter-timeline" data-width="270" data-height="300" href="https://twitter.com/PlayStation">Tweets by PlayStation</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-			<div class="twitter"><a class="twitter-timeline" data-width="270" data-height="300" href="https://twitter.com/Xbox">Tweets by PlayStation</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-			<div class="twitter"><a class="twitter-timeline" data-width="270" data-height="300" href="https://twitter.com/NintendoAmerica">Tweets by PlayStation</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-			<a class="twitter-timeline" data-width="270" data-height="300" href="https://twitter.com/pcgamer">Tweets by PlayStation</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<div class="twitter"><a class="twitter-timeline" data-width="270" data-height="300" href="https://twitter.com/Xbox">Tweets by Xbox</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+			<div class="twitter"><a class="twitter-timeline" data-width="270" data-height="300" href="https://twitter.com/NintendoAmerica">Tweets by Nintendo</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+			<a class="twitter-timeline" data-width="270" data-height="300" href="https://twitter.com/pcgamer">Tweets by PCGamer</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
-		<h1>This is a div for the page content</h1>
+		<h1>The Latest News</h1>
+		<div class="news0">
+		<?php
+			echo "<p>huh</p>";
+			?>
+		</div>
+		<div class="news1">
+		</div>
+		<div class="news1">
+		</div>
+		<div class="news1">
+		</div>
 	</div>
 	<div id="Footer">
        <p> <br/> <br/> Designed by Matthew Czech, Zackary Flake, and Matthew Paule </p>
