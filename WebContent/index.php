@@ -35,17 +35,73 @@
 		</div>
 		<h1>The Latest News</h1>
 		<div class="news0">
-		<?php
-			echo "<p>huh</p>";
+			<h2>Destructoid</h2>
+			<?php	
+				$html = file_get_contents('https://www.destructoid.com');
+				$dom = new DOMDocument();
+				@$dom->loadHTML($html);
+				$elements = $dom->getElementsByTagName('h2');
+				$done = 0;
+				foreach($elements as $element){
+					if(($element->getAttribute('class') == 'sparticle_title') && $done == 0){
+						echo "<p>" . $element->nodeValue . "</p>";
+						$done = 1;
+					}
+				}
 			?>
 		</div>
 		<div class="news1">
+			<h2>Gamespot</h2>
+				<?php	
+					$html = file_get_contents('https://www.gamespot.com');
+					$dom = new DOMDocument();
+					@$dom->loadHTML($html);
+					$elements = $dom->getElementsByTagName('h3');
+					$done = 0;
+					foreach($elements as $element){
+						if(($element->getAttribute('class') == 'media-title') && $done == 0){
+							echo "<p>" . $element->nodeValue . "</p>";
+							$done = 1;
+						}
+					}
+				?>
 		</div>
 		<div class="news1">
-		</div>
+			<h2>PC Gamer</h2>
+					<?php	
+						$html = file_get_contents('https://www.pcgamer.com');
+						$dom = new DOMDocument();
+						@$dom->loadHTML($html);
+						$elements = $dom->getElementsByTagName('h3');
+						$done = 0;
+						foreach($elements as $element){
+							if(($element->getAttribute('class') == 'article-name') && $done == 0){
+								echo "<p>" . $element->nodeValue . "</p>";
+								$done = 1;
+							}
+						}
+					?>
+			</div>
 		<div class="news1">
+			<h2>Gamezone</h2>
+						<?php	
+							$html = file_get_contents('http://www.gamezone.com');
+							$dom = new DOMDocument();
+							@$dom->loadHTML($html);
+							$elements = $dom->getElementsByTagName('div');
+							$done = 0;
+							foreach($elements as $element){
+								if(($element->getAttribute('class') == 'article-content') && $done == 0){
+									$headlines = $element->getElementsByTagName('a');
+									foreach($headlines as $headline){
+									echo "<p>" . $headline->nodeValue . "</p>";
+									$done = 1;
+									}
+								}
+							}
+						?>
+			</div>
 		</div>
-	</div>
 	<div id="Footer">
        <p> <br/> <br/> Designed by Matthew Czech, Zackary Flake, and Matthew Paule </p>
     </div>
