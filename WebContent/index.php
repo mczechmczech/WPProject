@@ -16,19 +16,18 @@
 		</div>
 		<div id="MenuTabs">
 			<ul id="HeaderTabs">
-				<li><a href="">PlayStation 4</a></li>
-				<li><a href="">XBox One</a></li>
-				<li><a href="">PC</a></li>
-				<li><a href="">Nintendo Switch</a></li>
-				<li><a href="">3DS</a></li>
-				<li><a href="">Forum</a></li>
+				<li><a href="./ps4.php">PlayStation 4</a></li>
+				<li><a href="./xboxone.php">XBox One</a></li>
+				<li><a href="./pc.php">PC</a></li>
+				<li><a href="./switch.php">Nintendo Switch</a></li>
+				<li><a href="./3ds.php">3DS</a></li>
+				<li><a href="./forum.php">Forum</a></li>
 				<li>
-			
 			</ul>
 		</div>
 	</div>
 	<div id="Content">
-		<div id="TwitterFeed">
+		<div id="Sidebar">
 			<div class="twitter">
 				<a class="twitter-timeline" data-width="270" data-height="300"
 					href="https://twitter.com/PlayStation">Tweets by PlayStation</a>
@@ -74,13 +73,12 @@
 						$articleDOM = new DOMDocument ();
 						@$articleDOM->loadHTML ( $html );
 						$author = $articleDOM->getElementById ( 'byline_author' );
-						echo "<i> By " . $author->nodeValue . "</i> <br/>";
+						echo "<em> By " . $author->nodeValue . "</em> <br/>";
 						
 						$article = $articleDOM->getElementById ( 'postcontent_post' );
 						$texts = $article->getElementsByTagName ( 'p' );
 						echo "<p>" . $texts [0]->nodeValue . "</p>";
 						echo "<p>" . $texts [1]->nodeValue . "</p>";
-						echo "<p>" . $texts [2]->nodeValue . "</p>";
 						
 						echo "<a href=" . $fullLink . "> Read More...</a>";
 				}
@@ -113,7 +111,7 @@
 							foreach ( $byline as $line ) {
 								if ($line->getAttribute ( 'class' ) == 'news-byline pull-left text-base no-rhythm') {
 									$author = $line->getElementsByTagName ( 'a' );
-									echo "<i> By " . $author [0]->nodeValue . "</i> <br/>";
+									echo "<em> By " . $author [0]->nodeValue . "</em> <br/>";
 								}
 							}
 							$articles = $articleDOM->getElementsByTagName( 'div' );
@@ -157,7 +155,7 @@
 								$byline = $articleDOM->getElementsByTagName ( 'span' );
 								foreach ( $byline as $line ) {
 									if ($line->getAttribute ( 'class' ) == 'no-wrap by-author') {
-										echo "<i> By " . $line->nodeValue . "</i> <br/>";
+										echo "<em> By " . $line->nodeValue . "</em> <br/>";
 									}
 								}
 								
@@ -172,9 +170,11 @@
 		<div class="news1">
 			<h2>Gamezone</h2>
 						<?php
-						$html = file_get_contents ( 'http://www.gamezone.com' );
+						$url = 'http://www.gamezone.com';
+						$html = file_get_contents ( $url );
 						$dom = new DOMDocument ();
 						@$dom->loadHTML ( $html );
+						
 						$elements = $dom->getElementsByTagName ( 'div' );
 						$done = 0;
 						foreach ( $elements as $element ) {
@@ -182,6 +182,24 @@
 								$headlines = $element->getElementsByTagName ( 'a' );
 								echo "<p>" . $headlines [0]->nodeValue . "</p>";
 								$done = 1;
+								
+								$link = $headlines[0]->getAttribute('href');
+								$fullLink = $url . $link;
+								$html = file_get_contents($fullLink);
+								$articleDOM = new DOMDocument();
+								@$articleDOM->loadHTML($html);
+								
+								$byline = $articleDOM->getElementsByTagName('div');
+								foreach($byline as $line){
+									if($line->getAttribute('class') == 'byline'){
+										echo "<em>" . $line->nodeValue . "</em>";
+									}
+									if($line->getAttribute('class') == 'body-content'){
+										$texts = $line->getElementsByTagName('p');
+										echo "<p>" . $texts[0]->nodeValue . "</p>";
+										echo "<a href=" . $fullLink . "> Read More...</a>";
+									}
+								}	
 							}
 						}
 						?>

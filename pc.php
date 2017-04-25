@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web Programming Game Forum</title>
+<title>Web Programming Game Forum - PC</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Author"
@@ -28,7 +28,7 @@
 	</div>
 	<div id="Content">
 		<div id="Sidebar">
-
+			
 		</div>
 	</div>
 	<div id="Footer">
