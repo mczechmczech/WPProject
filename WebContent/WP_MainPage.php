@@ -16,6 +16,7 @@
 		</div>
 		<div id="MenuTabs">
 			<ul id="HeaderTabs">
+				<li><a href="./index.php">News</a>
 				<li><a href="./ps4.php">PlayStation 4</a></li>
 				<li><a href="./xboxone.php">XBox One</a></li>
 				<li><a href="./pc.php">PC</a></li>

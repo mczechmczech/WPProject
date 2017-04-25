@@ -16,6 +16,7 @@
 		</div>
 		<div id="MenuTabs">
 			<ul id="HeaderTabs">
+				<li><a href="./index.php">News</a>
 				<li><a href="">PlayStation 4</a></li>
 				<li><a href="">XBox One</a></li>
 				<li><a href="">PC</a></li>
@@ -24,16 +25,16 @@
 				<li><a href="">Forum</a></li>
 				<li>
 			</ul>
+		</div>
+	</div>
+
+	<div id="Content">
 			<ul id="GameTabs">
 				<li><a href="">Walkthroughs/FAQs</a></li>
 				<li><a href="">Reviews</a></li>
 				<li><a href="">News</a></li>
 				<li><a href="">Discuss</a></li>
 			</ul>
-		</div>
-	</div>
-
-	<div id="Content">
 		<div id="GameInfo">
 			<p>This is a div for the game information (cover art, year,
 				rating, etc.).</p>

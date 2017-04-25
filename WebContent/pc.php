@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web Programming Game Forum - 3DS</title>
+<title>Web Programming Game Forum - PC</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Author"
@@ -16,6 +16,7 @@
 		</div>
 		<div id="MenuTabs">
 			<ul id="HeaderTabs">
+				<li><a href="./index.php">News</a></li>
 				<li><a href="./ps4.php">PlayStation 4</a></li>
 				<li><a href="./xboxone.php">XBox One</a></li>
 				<li><a href="./pc.php">PC</a></li>
@@ -28,8 +29,16 @@
 	</div>
 	<div id="Content">
 		<div id="Sidebar">
-			
+			<img src="../images/pc.jpg">
+			<ul id="Info">
+			<li><strong>Manufacturer:</strong><br/> Varies</li>
+			<li><strong>Released (NA):</strong><br/> Late 1970's (Home computers)</li>
+			<li><strong>CPU:</strong><br/> Varies</li>
+			<li><strong>GPU:</strong><br/> Varies</li>
+			<li><strong>RAM:</strong><br/> Varies</li>
+			</ul>
 		</div>
+		<h1>Top PC Games</h1>
 	</div>
 	<div id="Footer">
 		<p>Designed by Matthew Czech, Zackary Flake, and Matthew Paule</p>
