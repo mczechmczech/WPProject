@@ -28,17 +28,19 @@
 		</div>
 	</div>
 	<div id="Content">
-		<div id="Sidebar">
-			<img src="../images/pc.jpg">
-			<ul id="Info">
-			<li><strong>Manufacturer:</strong><br/> Varies</li>
-			<li><strong>Released (NA):</strong><br/> Late 1970's (Home computers)</li>
-			<li><strong>CPU:</strong><br/> Varies</li>
-			<li><strong>GPU:</strong><br/> Varies</li>
-			<li><strong>RAM:</strong><br/> Varies</li>
-			</ul>
-		</div>
 		<h1>Gamer HQ Forum</h1>
+		<div class="forum0">
+			<p>Welcome to the Gamer HQ forum page. <br/>
+			   Here you are welcome ingage with the rest of the gaming community to descuss about the game
+			   of your choosing. If the game you wish to discuss about is not currently part of the Game HQ
+			   forum page then fell free to add a post.				   <br/>
+			   We have a few rules here at the Gamer HQ forum page <br/>
+			   			 	- Family and doggo friendly, so no swearsies	<br/>
+			   				- No harassing	<br/>
+			   				- "Be Excellent to Each Other" <em> -Bill and Ted</em><br/>
+			</p>
+		</div>
+		
 	</div>
 	<div id="Footer">
 		<p>Designed by Matthew Czech, Zackary Flake, and Matthew Paule</p>
