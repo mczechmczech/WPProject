@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web Programming Game Forum - Xbox One</title>
+<title>Web Programming Game Forum - Add Game</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="Author"
@@ -16,7 +16,7 @@
 		</div>
 		<div id="MenuTabs">
 			<ul id="HeaderTabs">
-				<li><a href="./index.php">News</a></li>
+				<li><a href="./index.php">News</a>
 				<li><a href="./ps4.php">PlayStation 4</a></li>
 				<li><a href="./xboxone.php">XBox One</a></li>
 				<li><a href="./pc.php">PC</a></li>
@@ -28,20 +28,19 @@
 		</div>
 	</div>
 	<div id="Content">
-		<div id="Sidebar">
-			<img src="../images/xboxone.png">
-			<ul id="Info">
-			<li><strong>Manufacturer:</strong><br/> Microsoft</li>
-			<li><strong>Released (NA):</strong><br/> November 22, 2013</li>
-			<li><strong>CPU:</strong><br/> 1.75 GHz AMD 8-core APU</li>
-			<li><strong>GPU:</strong><br/> 853 MHz AMD Radeon GCN architecture (1.31 TFLOPS)</li>
-			<li><strong>RAM:</strong><br/> 8GB GDDR3</li>
-			</ul>
-		</div>
-		<h1>Top Xbox One Games</h1>
-		<span id="Add">
-			<a href="./addgame.php">Add Game</a>
-		</span>
+		<h1>Add Game</h1>
+		<form>
+		<p class="addgame">Title: <input type="text" name="title" class="item"/></p>
+		<p class="addgame">System:
+			<select name="systems" class="item">
+			  <option value="ps4">PlayStation 4</option>
+			  <option value="xboxone">Xbox One</option>
+			  <option value="pc">PC</option>
+			  <option value="switch">Nintendo Switch</option>
+			  <option value="3ds">Nintendo 3DS</option>
+			</select></p>
+		</form>
+		<div id="Enter">Enter</div>
 	</div>
 	<div id="Footer">
 		<p>Designed by Matthew Czech, Zackary Flake, and Matthew Paule</p>
