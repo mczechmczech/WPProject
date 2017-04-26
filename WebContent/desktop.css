@@ -221,4 +221,16 @@ body	{
 	font-size: 30px;
 	float: right;
 }
+
+.forum0 {
+ 	background-color: #e8e8e8;
+ 	border-radius: 20px;
+ 	margin-top: 30px;
+ 	margin-bottom: 40px;
+ 	margin-right: 35px;
+ 	height: 300px;
+ 	width: 900px;
+  	float: right;
+ 	padding-left: 30px;
+  }
 }
