@@ -39,6 +39,9 @@
 			</ul>
 		</div>
 		<h1>Top Nintendo Switch Games</h1>
+		<span id="Add">
+			<a href="./addgame.php">Add Game</a>
+		</span>
 	</div>
 	<div id="Footer">
 		<p>Designed by Matthew Czech, Zackary Flake, and Matthew Paule</p>
