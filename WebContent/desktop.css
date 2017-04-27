@@ -97,7 +97,6 @@ body	{
 
 #Sidebar img{
 	width: 250px;
-	height: 250px;
 	display: block;
 	margin-left: 10px;
 }
@@ -179,9 +178,14 @@ body	{
 
 #Footer {
 	width: 1000px;
-	height: 75px;
+	height: 50px;
 	margin: auto;
+	margin-top: 10px;
 	background-color: #e20000;
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	color: white;
+	padding-top: 25px;
 }
 
 .news0 {

@@ -210,7 +210,7 @@
 	</div>
 	<div id="Footer">
 		<p>
-			<br /> <br /> Designed by Matthew Czech, Zackary Flake, and Matthew
+			Designed by Matthew Czech, Zackary Flake, and Matthew
 			Paule
 		</p>
 	</div>
