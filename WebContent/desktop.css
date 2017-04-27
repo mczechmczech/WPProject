@@ -1,0 +1,326 @@
+@CHARSET "ISO-8859-1";
+/**
+* Layout for the laptop version of the site.
+*
+* Authors: Czech, Flake, Paule
+*/
+@media screen and (min-width: 700px){
+body	{
+	background-color: black;
+}
+
+#Header {
+	background-color: #e20000;
+	height: 150px;
+	width: 1000px;
+	padding-bottom: 10px;
+	margin: auto;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+#Header img{
+	height: 150px;
+}
+
+#SearchBar {
+	background-color: white;
+	position: relative;
+	width: 200px;
+	height: 30px;
+	right: 20px;
+	top: 80px;
+	float: right;
+}
+
+#HeaderTabs {
+	position: absolute;
+	top: 115px;
+	background-color: #6d0000;
+	width: 960px;
+	font-family: "Arial", sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+#HeaderTabs a{
+	color: white;
+	text-decoration: none;
+}
+
+#HeaderTabs a:hover{
+	color: #b7b7b7;
+}
+
+#HeaderTabs li {
+	margin: 0px 25px;
+	display: inline;
+}
+
+#GameTabs {
+	position: relative;
+	float: right;
+	background-color: #6d0000;
+	width: 630px;
+	font-family: "Arial", sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+#GameTabs a{
+	color: white;
+	text-decoration: none;
+}
+
+#GameTabs a:hover{
+	color: #b7b7b7;
+}
+
+#GameTabs li {
+	margin: 0px 30px;
+	display: inline;
+}
+
+#Sidebar {
+	background-color: #cecece;
+	width: 300px;
+	height: 1415px;
+	float: left;
+	border-radius: 20px 0px 0px 20px;
+	padding-left: 30px;
+	padding-top: 30px;
+	margin-top: -15px;
+	
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+}
+
+#Sidebar img{
+	width: 250px;
+	display: block;
+	margin-left: 10px;
+}
+
+.twitter{
+	margin-bottom: 30px;
+}
+
+#Info {
+	list-style: none;
+}
+
+#Info li{
+	margin-top: 50px;
+	margin-left: -30px;
+	margin-right: 35px;
+}
+
+#GameInfo {
+	background-color: green;
+	width: 200px;
+	height: 100vh;
+	float: left;
+}
+
+#Content {
+	background-color: white;
+	height: 1430px;
+	width: 1000px;
+	margin: auto;
+	padding-top: 15px;
+	border-radius: 20px;
+}
+
+#Content h1{
+	font-family: "Arial", sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+
+#Content h2{
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	text-align: left;
+}
+
+#Content p{
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+}
+
+#Add{
+	background-color: #6d0000;
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	width: 125px;
+	height: 25px;
+	position: relative;
+	right: -300px;
+}
+
+#Add a{
+	text-decoration: none;
+	color: white;
+}
+
+#Enter{
+	background-color: #6d0000;
+	font-family: "Arial", sans-serif;
+	font-size: 40px;
+	text-align: center;
+	width: 400px;
+	height: 45px;
+	position: relative;
+	right: -300px;
+	color: white;
+}
+
+#Footer {
+	width: 1000px;
+	height: 50px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: #e20000;
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	color: white;
+	padding-top: 25px;
+}
+
+.news0 {
+	background-color: #e8e8e8;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-right: 35px;
+	height: 300px;
+	width: 570px;
+	float: right;
+	padding-left: 30px;
+}
+
+.news0 em{
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+}
+
+.news0 a{
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	color: #e20000;
+}
+
+.news1{
+	background-color: #e8e8e8;
+	border-radius: 20px;
+	margin-bottom: 40px;
+	margin-right: 35px;
+	height: 300px;
+	width: 570px;
+	float: right;
+	padding-left: 30px;
+}
+
+.news1 em{
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+}
+
+.news1 a{
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	color: #e20000;
+}
+
+#Content .addgame{
+	margin-left: 100px;
+	font-family: "Arial", sans-serif;
+	font-size: 30px;
+}
+
+#Content .item{
+	margin-right: 100px;
+	font-family: "Arial", sans-serif;
+	font-size: 30px;
+	float: right;
+}
+
+.forum0 {
+ 	background-color: #4c4949;
+ 	color: #ffffff;
+ 	
+ 	border-radius: 20px;
+ 	margin-top: 20px;
+ 	margin-bottom: 30px;
+ 	margin-right: 35px;
+ 	width: 900px;
+  	float: right;
+ 	padding-left: 30px;
+  }
+ .fourm0 p{
+ 	font-size: 30px;
+ 	font-family: "Arial", sans-serif;
+  }
+  
+ .forum1 {
+ 	background-color: #e8e8e8;
+ 	border-radius: 20px;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	margin-right: 35px;
+ 	width: 900px;
+  	float: right;
+ 	padding-left: 30px;
+  }
+  .fourm1 p{
+ 	font-size: 30px;
+ 	font-family: "Arial", sans-serif;
+  }
+  
+  .forumComment {
+  	background-color: #ffffff;
+ 	border-radius: 20px;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	margin-right: 170px;
+ 	width: 600px;
+  	float: right;
+ 	padding-left: 30px;
+  }
+  .fourmComment p{
+ 	font-size: 30px;
+ 	font-family: "Arial", sans-serif;
+  }
+  
+ #AddPost{
+	background-color: #4c4949;
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	width: 125px;
+	height: 25px;
+	position: relative;
+	right: -35px;
+	
+  }
+   #AddComment{
+	background-color: #4c4949;
+	color: #ffffff;
+	font-family: "Arial", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	width: 150px;
+	height: 25px;
+	position: relative;
+	float: right;
+  }
+  #AddPost a{
+	text-decoration: none;
+	color: white;
+  }
+  #AddComment a{
+	text-decoration: none;
+	color: white;
+}
+}
