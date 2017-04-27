@@ -57,7 +57,27 @@ body	{
 	display: inline;
 }
 
+#GameTabs {
+	position: relative;
+	float: right;
+	background-color: #6d0000;
+	width: 630px;
+	font-family: "Arial", sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+#GameTabs a{
+	color: white;
+	text-decoration: none;
+}
+
+#GameTabs a:hover{
+	color: #b7b7b7;
+}
+
 #GameTabs li {
+	margin: 0px 30px;
 	display: inline;
 }
 
