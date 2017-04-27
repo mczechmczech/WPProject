@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div id="Header">
-		<h1>Gamer HQ</h1>
+		<img src="../images/GamerHQ_header.png" />
 		<div id="SearchBar">
 			<p>SEARCHBAR DIV</p>
 		</div>
@@ -39,7 +39,25 @@
 			   				- No harassing	<br/>
 			   				- "Be Excellent to Each Other" <em> -Bill and Ted</em><br/>
 			</p>
+			
 		</div>
+		<div>
+			<span id="AddPost">
+				<a href="./addgame.php">Add Post</a>
+			</span>
+		</div>
+		<div class="forum1">
+			<p>This is a test forum post. Mean while lets talk about how great this website is! </p>
+				<div class="forumComment">
+					<p>I agree with this statment.</p>
+				</div>
+			
+					<span id="AddComment">
+					<a href="./addgame.php">Add Comment</a>
+					</span>
+
+		</div>
+		
 		
 	</div>
 	<div id="Footer">
