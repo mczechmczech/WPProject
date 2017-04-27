@@ -7,10 +7,13 @@
 <meta name="Author"
 	content="Matthew Czech, Zackary Flake, Matthew Paule">
 <link rel="stylesheet" href="desktop.css" />
+<link rel="icon" href="../images/hqicon.ico" />
 </head>
 <body>
 	<div id="Header">
-		<img src="../images/GamerHQ_header.png" />
+		<a href="./index.php">
+			<img src="../images/GamerHQ_header.png">
+		</a>
 		<div id="SearchBar">
 			<p>SEARCHBAR DIV</p>
 		</div>
@@ -33,7 +36,7 @@
 			<ul id="Info">
 			<li><strong>Manufacturer:</strong><br/> Nintendo</li>
 			<li><strong>Released (NA):</strong><br/> March 3, 2017</li>
-			<li><strong>CPU:</strong><br/> Octa-core (4xARM Cortex-A57 & 4xARM Cortex-A53) @ 1.020 GHz</li>
+			<li><strong>CPU:</strong><br/> Octa-core (4xARM Cortex-A57 and 4xARM Cortex-A53) @ 1.020 GHz</li>
 			<li><strong>GPU:</strong><br/> Nvidia GM20B @ 384 MHz (undocked) 768 MHz (docked)</li>
 			<li><strong>RAM:</strong><br/> 4 GB LPDDR4</li>
 			</ul>

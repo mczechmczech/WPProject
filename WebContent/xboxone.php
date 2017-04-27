@@ -7,10 +7,13 @@
 <meta name="Author"
 	content="Matthew Czech, Zackary Flake, Matthew Paule">
 <link rel="stylesheet" href="desktop.css" />
+<link rel="icon" href="../images/hqicon.ico" />
 </head>
 <body>
 	<div id="Header">
-		<img src="../images/GamerHQ_header.png" />
+		<a href="./index.php">
+			<img src="../images/GamerHQ_header.png">
+		</a>
 		<div id="SearchBar">
 			<p>SEARCHBAR DIV</p>
 		</div>
