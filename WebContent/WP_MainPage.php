@@ -15,7 +15,11 @@
 			<img src="../images/GamerHQ_header.png">
 		</a>
 		<div id="SearchBar">
-			<p>SEARCHBAR DIV</p>
+			<form action="../searchPage.php" method="POST">
+                            Game: <input type="text" name="game"><br>
+                            
+                            <input type="submit">
+                         </form> 
 		</div>
 		<div id="MenuTabs">
 			<ul id="HeaderTabs">
