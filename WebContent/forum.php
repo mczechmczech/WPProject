@@ -10,7 +10,9 @@
 </head>
 <body>
 	<div id="Header">
-		<h1>Gamer HQ</h1>
+		<a href="./index.php">
+			<img src="../images/GamerHQ_header.png">
+		</a>
 		<div id="SearchBar">
 			<p>SEARCHBAR DIV</p>
 		</div>
